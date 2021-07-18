@@ -1,0 +1,12 @@
+*.sketch
+*.fig
+*.xd
+
+.DS_Store
+.prettierignore
+
+/figma
+/design
+
+style-guide.md
+README-guide.md
