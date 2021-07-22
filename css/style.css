@@ -1,3 +1,35 @@
+:root {
+  --soft-red: #FE7867;
+  --yellow: #FAD400;
+  --graphic-text: #25564B;
+  --img-text: #19536B;
+  --footer: #458C7E;
+
+  --dark-blue:#23303E;
+  --very-dark-grayish-blue: #5A636C;
+  --dark-grayish-blue: #818498;
+  --grayish-blue: #A7ABAE;
+  --white: #fff;
+
+  --barlow-font: 'Barlow', sans-serif;
+  --fraunces-font: 'Fraunces', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+}
 
 /* FOOTER */
 .attribution { 
