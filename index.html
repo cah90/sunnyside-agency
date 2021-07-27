@@ -13,55 +13,64 @@
   <title>Frontend Mentor | Sunnyside agency landing page</title>  
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <main>
+    <header class="header">
+      <svg class="header__icon-logo">
+        <use href="images/sprite.svg#logo"></use>
+      </svg>
 
-  We are creatives
+      <svg class="header__icon-menu">
+        <use href="images/sprite.svg#icon-hamburger"></use>
+      </svg>
 
-  Transform your brand
+      <nav class="nav nav--toggle-menu">
+        <ul class="nav__menu">
+          <a href="#">
+            <li class="nav__items">About</li>
+          </a>
+          
+          <a href="#">
+            <li class="nav__items">Services</li>
+          </a>
+          
+          <a href="#">
+            <li class="nav__items">Projects</li>
+          </a>
+          
+          <a href="#">
+            <li class="nav__items nav__btn">Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      
+        <h1 class="hero__title title">WE ARE CREATIVES</h1>
+        <svg class="header__icon-arrow-down">
+          <use href="images/sprite.svg#icon-arrow-down"></use>
+        </svg>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+        <picture>
+          <source media="(min-width:768px)" srcset="images/desktop/image-header.jpg">
+          <source media="(min-width:380px)" srcset="images/mobile/image-header.jpg">
 
-  Learn more
+          <img class="hero__img" src="images/desktop/image-header.jpg" alt="Half of an orange header image">
+        </picture>
+        
+      
+    </section>
+  </main>
 
-  Stand out to the right audience
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
 
-  Learn more
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
 
-  Client testimonials
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Cássia Bernardo</a>.
+  </div> -->
 
   <script src="javascript/script.js"></script>
 </body>
