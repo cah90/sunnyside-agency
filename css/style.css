@@ -383,21 +383,24 @@ img {
     padding: 0;
   }
 
-  .nav__items {
+  .nav__items a {
     color: var(--white);
   }
 
-  .nav__items:hover {
+  .nav__items a:hover {
     color: #77CDF5;
   }
 
   .nav__btn {
-    background-color: var(--white);
-    color: #24303E;
     margin-top: 0;
   }
 
-  .nav__btn:hover {
+  .nav__btn a {
+    color: #24303E;
+  }
+
+  .nav__btn:hover,
+  .nav__btn a:hover {
     background-color: #77CDF5;
     color: var(--white);
   }
@@ -412,7 +415,7 @@ img {
     line-height:6.9rem;
     letter-spacing: 8.75px;
   }
-  
+
   .hero__icon-arrow-down {
     transition: margin 1s;
   }
