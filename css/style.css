@@ -407,6 +407,12 @@ img {
   }
 
   /* HERO */
+  .hero__title {
+    font-size: 5.6rem;
+    line-height:6.9rem;
+    letter-spacing: 8.75px;
+  }
+  
   .hero__icon-arrow-down {
     transition: margin 1s;
   }
