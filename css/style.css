@@ -94,13 +94,16 @@ img {
 
 .nav__items {
   padding: 1.6rem;
+}
+
+.nav__items a {
   font-size: 2rem;
   line-height: 2.5rem;
   letter-spacing: 0.14px;
   color: var(--dark-grayish-blue);
 }
 
-.nav__btn {
+.nav__btn a {
   font-family: var(--fraunces-font);
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -388,21 +391,23 @@ img {
   }
 
   .nav__items a:hover {
-    color: #77CDF5;
+    border-bottom: 3px #fff solid;
   }
 
   .nav__btn {
     margin-top: 0;
+    padding-top: 0;
   }
 
   .nav__btn a {
     color: #24303E;
+    background-color: var(--white);
   }
 
-  .nav__btn:hover,
   .nav__btn a:hover {
     background-color: #77CDF5;
     color: var(--white);
+    border-bottom: none;
   }
 
   .nav--toggle-menu {
